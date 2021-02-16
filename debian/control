@@ -1,0 +1,13 @@
+Source: yosys-lsoracle-plugin
+Section: electronics
+Priority: optional
+Maintainer: Ashton Snelgrove <ashton.snelgrove@utah.edu>
+Build-Depends: gcc-8, g++-8, make, debhelper, libffi-dev, zlib1g-dev, libreadline-dev
+Standards-Version: 4.0.0
+Homepage: https://github.com/lnis-uofu/LSOracle-Plugin
+
+Package: yosys-lsoracle-plugin
+Architecture: amd64
+Depends: yosys, lsoracle, libc, libffi7, libc6
+Description: Plugin for yosys to run lsoracle.
+  Plugin for yosys to run the lsoracle tool in flows.
